@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		65C81DF61EDD09E600A3DEB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DF51EDD09E600A3DEB4 /* AppDelegate.swift */; };
-		65C81DF81EDD09E600A3DEB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C81DF71EDD09E600A3DEB4 /* ViewController.swift */; };
 		65C81DFB1EDD09E600A3DEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DF91EDD09E600A3DEB4 /* Main.storyboard */; };
 		65C81DFD1EDD09E600A3DEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DFC1EDD09E600A3DEB4 /* Assets.xcassets */; };
 		65C81E001EDD09E600A3DEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C81DFE1EDD09E600A3DEB4 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		65C81DF21EDD09E600A3DEB4 /* GitLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C81DF51EDD09E600A3DEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C81DF71EDD09E600A3DEB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65C81DFA1EDD09E600A3DEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C81DFC1EDD09E600A3DEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C81DFF1EDD09E600A3DEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,21 @@
 		65C81DF41EDD09E600A3DEB4 /* GitLearning */ = {
 			isa = PBXGroup;
 			children = (
+				65C81E081EDD0F6900A3DEB4 /* Supporting Files */,
 				65C81DF51EDD09E600A3DEB4 /* AppDelegate.swift */,
-				65C81DF71EDD09E600A3DEB4 /* ViewController.swift */,
 				65C81DF91EDD09E600A3DEB4 /* Main.storyboard */,
 				65C81DFC1EDD09E600A3DEB4 /* Assets.xcassets */,
 				65C81DFE1EDD09E600A3DEB4 /* LaunchScreen.storyboard */,
 				65C81E011EDD09E600A3DEB4 /* Info.plist */,
 			);
 			path = GitLearning;
+			sourceTree = "<group>";
+		};
+		65C81E081EDD0F6900A3DEB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C81DF81EDD09E600A3DEB4 /* ViewController.swift in Sources */,
 				65C81DF61EDD09E600A3DEB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				65C81E061EDD09E600A3DEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
