@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
         
         // 11
+        // 12
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
